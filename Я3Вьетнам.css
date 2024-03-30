@@ -1,0 +1,120 @@
+@font-face{
+    font-family: "20784";
+    src: url(SHRIFT/20784.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Monte";
+    src: url(SHRIFT/Montserrat.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Oswal";
+    src: url(SHRIFT/Oswaldextralight.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url(SHRIFT/Poppins-Black.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5e0d3;
+    padding-bottom: 40px; 
+    
+}
+
+.header {
+    background-color: #525252;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    height: 45px; 
+    margin-right: 20px; 
+}
+
+.header-text {
+    font-family: "20784";
+    color: white; 
+    margin: 0 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-text a {
+    color: white; 
+    text-decoration: none;
+    font-size: 13px; 
+}
+
+.header-text a:hover,
+.header-text a:active {
+    color: white; 
+}
+
+.photo {
+    float: left; 
+    width: calc(50% - 20px); 
+    margin-left: 20px; 
+}
+
+.photo img {
+    margin-top: 100px; 
+    margin-left: 100px;
+    width: 500px; 
+    height: auto; 
+}
+
+.info {
+    margin-top: 50px; 
+    float: left; 
+    width: calc(50% - 20px); 
+    margin-right: 20px; 
+    max-width: 600px; 
+}
+.info h2 {
+    font-family: "20784";
+    color: #111445; 
+    font-size: 34px; 
+    margin-bottom: 10px; 
+}
+
+.info p {
+    font-family: "Poppins";
+    color: #252525; 
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    font-weight: 545;
+}
+
+.bron {
+    background-color: #4bae84; 
+    border: none; 
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 8px; 
+}
+.gallery {
+    text-align: center; 
+    margin-top: 600px; 
+    margin-bottom: 30px; 
+}
+
+.gallery h2 {
+    font-family: "20784"; 
+    color: #111445; 
+    font-size: 34px; 
+}

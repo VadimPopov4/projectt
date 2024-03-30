@@ -1,0 +1,187 @@
+@font-face{
+    font-family: "20784";
+    src: url(SHRIFT/20784.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Monte";
+    src: url(SHRIFT/Montserrat.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Oswal";
+    src: url(SHRIFT/Oswaldextralight.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url(SHRIFT/Poppins-Black.ttf) format("truetype");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b5e0d3;
+    padding-bottom: 650px; 
+    
+}
+
+.header {
+    background-color: #525252;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    height: 45px; 
+    margin-right: 20px; 
+}
+
+.header-text {
+    font-family: "20784";
+    color: white; 
+    margin: 0 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-text a {
+    color: white; 
+    text-decoration: none;
+    font-size: 13px; 
+}
+
+.header-text a:hover,
+.header-text a:active {
+    color: white; 
+}
+
+
+
+.foto {
+    position: relative;
+    width: 100%;
+    height: 400px; 
+    overflow: hidden; 
+}
+
+.foto img {
+    width: 100%;
+    height: 400px; 
+    display: block; 
+}
+
+.verh {
+    position: absolute;
+    top: 50%; 
+    left: 10%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left; 
+    margin-left: 250px;
+    z-index: 1; 
+}
+
+.lozung {
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    color: #181E4B;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "20784";
+    
+}
+.plus {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0 60px; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.plus-box {
+    width: 23%; 
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 60px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.plus-box:last-child {
+    margin-right: 0; 
+}
+
+.plus-box img {
+    
+    width: 50%; 
+    height: auto;
+}
+
+.plus-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px; 
+    color: #10213f;
+    font-weight: bold;
+    font-family: "20784";
+}
+
+.plus-subtext {
+    text-align: center;
+    color: #363636; 
+    font-size: 16px; 
+    margin-top: 1px; 
+    font-family: "Poppins";
+    
+}
+
+.levo-photo {
+    float: left; 
+    width: calc(50% - 20px); 
+    margin-left: 20px; 
+}
+
+.levo-photo img {
+    margin-top: 100px; 
+    margin-left: 230px;
+    width: 350px; 
+    height: auto; 
+}
+
+.levo-info {
+    margin-top: 150px; 
+    float: left; 
+    width: calc(50% - 20px); 
+    margin-right: 20px; 
+    max-width: 600px; 
+}
+.levo-info h2 {
+    font-family: "20784";
+    color: #111445; 
+    font-size: 34px; 
+    margin-bottom: 10px; 
+    
+}
+
+.levo-info p {
+    font-family: "Poppins";
+    color: #363636; 
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    font-weight: 550;
+}
+
+
+
+
+
